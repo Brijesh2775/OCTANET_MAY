@@ -1,0 +1,97 @@
+*,::after,::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.main{
+    border: 2px solid green;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right,rgb(236, 200, 236),rgb(199, 199, 248));
+    
+    
+}
+
+
+html{
+    font-size: 62.5%;
+}
+/*############################## Utility classes ################################# */
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+
+/*############################## to do styling ############################################*/
+.main-container{
+    border: 2px solid greenyellow;
+    background: rgba(228, 192, 228, 0.712);
+    border-radius: 10px;
+  
+}
+.main-container h1{
+    border: 2px solid green;
+    color:white;
+    text-align: center;
+    padding: 0.3em;
+    margin: 0.4em;
+    font-size: 4rem;
+    text-transform: capitalize;
+    background: linear-gradient(to right,rgb(245, 183, 245),rgb(116, 116, 238));
+    border-radius: 10px;
+
+}
+.to-do-container{
+    border: 2px solid orange;
+    margin: 1em;
+    min-height: 60vh;
+    background: white;
+    border-radius: 10px;
+   
+    
+   
+}
+.to-do-container input{
+    display: block;
+   width: 90%;
+    height: 4rem;
+    margin: 0.5em;
+    padding: 0.4em;
+    font-size: 2rem;
+
+    margin: 0 auto;
+    margin-top: 1em;
+}
+    
+.tasks{
+    border: 2px solid green;
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 1em;
+    position: relative;
+    padding: 0.4em;
+    margin-bottom: 1em;
+    
+}
+.tasks li{
+    list-style: none;
+    border: 2px solid plum;
+    min-height: 4rem;
+    font-size: 2.2rem;
+    background: rgb(80, 79, 79);
+    color: white;
+    border-radius: 10px;
+}
+   .mark{
+    position: absolute;
+    font-size: 3rem;
+    top: 5px;
+    right: 10px;
+  
+   }
